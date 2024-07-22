@@ -24,7 +24,7 @@ export default function Navbar() {
           <a
             href="#epk"
             className={
-              location.hash === "#epk" || location.hash === ""
+              location.hash === "#epk"
                 ? "text-white"
                 : "text-[#D4B200] hover:scale-110 hover:text-white duration-500 cursor-pointer"
             }
@@ -34,7 +34,7 @@ export default function Navbar() {
           <a
             href="#music"
             className={
-              location.hash === "#music" || location.hash === ""
+              location.hash === "#music"
                 ? "text-white"
                 : "text-[#D4B200] hover:scale-110 hover:text-white duration-500 cursor-pointer"
             }
@@ -44,7 +44,7 @@ export default function Navbar() {
           <a
             href="#contact"
             className={
-              location.hash === "#contact" || location.hash === ""
+              location.hash === "#contact"
                 ? "text-white"
                 : "text-[#D4B200] hover:scale-110 hover:text-white duration-500 cursor-pointer"
             }
