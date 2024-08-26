@@ -9,9 +9,9 @@ function App() {
     <>
       <Navbar />
       <Home />
-      <EPK />
+      {/* <EPK />
       <Music />
-      <Contact />
+      <Contact /> */}
     </>
   );
 }

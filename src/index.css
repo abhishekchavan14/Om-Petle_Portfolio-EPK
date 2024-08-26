@@ -8,6 +8,7 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, ;
   overflow-x: hidden;
   background-color: #282828;
+  user-select: none;
 }
 .gradient-transition {
   transition: 2s ease;
