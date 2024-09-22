@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/Hero4.jpg";
+import HeroImage from "../assets/Hero.jpg";
 import { FaArrowRight } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
@@ -17,7 +17,7 @@ export default function Hero() {
             <div>
               <img src={HeroImage} alt="" className="md:hidden" />
             </div>
-            <div className="text-3xl ml-10 mr-5 flex">
+            <div className="text-3xl ml-10 mr-5 flex z-0">
               <li className="list-none space-y-5 flex flex-col justify-center items-center">
                 <a href="https://www.instagram.com/om.petle/" target="_blank">
                   <FaInstagram className="hover:scale-110 duration-300 cursor-pointer hover:text-red-400" />
@@ -57,7 +57,7 @@ export default function Hero() {
           <img src={HeroImage} alt="" className="top-0" />
         </div>
       </div>
-      <div className="h-[10%] mt-10 hidden md:flex justify-between w-full items-center">
+      <div className="h-[10%] z-10 mt-10 hidden md:flex justify-between w-full items-center">
         <div>
           <button className="flex justify-center items-center text-xs md:text-lg bg-gradient-to-r from-purple-400 to-yellow-500 p-4 md:p-4 rounded-lg hover:bg-gradient-to-r hover:from-yellow-500 hover:to-purple-400 hover:text-white md:ml-16 md:px-10 custom-shadow duration-500 ">
             CHECKOUT MY MUSIC!

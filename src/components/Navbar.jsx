@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import NavbarLogo from "../assets/Logo-PNG.png";
 import { useLocation } from "react-router-dom";
-import { RiMenu3Fill, RiCloseFill } from "react-icons/ri";
-import MenuIcon from "../assets/MenuIcon.png"
-import MenuIcon2 from "../assets/MenuIcon2.png"
+import MenuIcon from "../assets/MenuIcon.png";
 
 export default function Navbar() {
   const location = useLocation();
@@ -14,7 +12,7 @@ export default function Navbar() {
     setRotate(!rotate);
   };
   return (
-    <div className="w-full h-[10%] fixed top-0 bg-[#282828] bg-opacity-90 shadow-lg shadow-black flex justify-between items-center z-10">
+    <div className="w-full h-[10%] fixed top-0 bg-[#282828] bg-opacity-90 shadow-lg shadow-black flex justify-between items-center z-50">
       <div className="object-contain w-[15%] md:w-[5%] ml-4 md:ml-36">
         <img src={NavbarLogo} alt="" className=" hover:cursor-pointer" />
       </div>
@@ -61,13 +59,21 @@ export default function Navbar() {
             Contact
           </a>
         </li>
-        
       </div>
-      <button
-        className="block md:hidden mr-2 p-1"
-        onClick={handleClick}
-      >
-        {nav ? <img src={MenuIcon} alt="Icon" className="rotate-0 duration-300 w-[70%]"/> : <img src={MenuIcon} alt="Icon" className="rotate-45 duration-300 w-[70%]" />}
+      <button className="block md:hidden mr-2 p-1" onClick={handleClick}>
+        {nav ? (
+          <img
+            src={MenuIcon}
+            alt="Icon"
+            className="rotate-0 duration-300 w-[70%]"
+          />
+        ) : (
+          <img
+            src={MenuIcon}
+            alt="Icon"
+            className="rotate-45 duration-300 w-[70%]"
+          />
+        )}
       </button>
       <div
         className={
