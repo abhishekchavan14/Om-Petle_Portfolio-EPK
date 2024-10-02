@@ -176,13 +176,6 @@ export default function EPK() {
                 </li>
               </div>
             </div>
-            <div className="flex justify-center items-center mt-5">
-              <button className="flex space-x-3 justify-center items-center bg-white px-4 py-2 lg:px-6 lg:py-4 text-sm lg:text-xl bg-gradient-to-r from-purple-400 to-yellow-500 p-4 rounded-lg hover:bg-gradient-to-r hover:from-yellow-500 hover:to-purple-400 hover:text-white custom-shadow duration-500">
-                <a href={EPKPDF} target="_blank" rel="noopener noreferrer">
-                  Download EPK
-                </a>
-              </button>
-            </div>
           </div>
         </div>
       )}
