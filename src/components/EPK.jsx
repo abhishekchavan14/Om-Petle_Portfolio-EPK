@@ -64,7 +64,7 @@ export default function EPK() {
               className="absolute top-0 right-0 z-10 text-white bg-red-500 hover:bg-red-600 rounded-full mb-2 w-8 h-8 flex items-center justify-center shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-110 ml-auto"
               onClick={handleCloseEPK}
             >
-              &times;
+              X
             </button>
 
             {/* Sections with respective backgrounds */}

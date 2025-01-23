@@ -38,13 +38,7 @@ export default function Hero() {
             </div>
           </div>
           <p className="md:block text-xs md:text-lg mt-4 text-left pr-4 md:mt-16 font-light">
-            " Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Voluptatibus porro eveniet ipsa, modi repudiandae expedita totam?
-            Voluptate placeat quasi ut debitis cupiditate accusantium, ducimus
-            corporis. Quibusdam cupiditate eos nulla voluptas ipsa corrupti
-            praesentium at veritatis sed itaque necessitatibus, molestiae
-            perferendis possimus vitae totam! Ratione numquam ipsam est deleniti
-            commodi. "
+            Originating from India, the producer born in 2002 developed a deep interest in electronic dance music (EDM). Inspired by artists like Martin Garrix, Avicii and Alan Walker, Om Petle decided to learn the aspects of producing music with a dream of creating his original art and finding his signature sound.
           </p>
         </div>
         <div>
