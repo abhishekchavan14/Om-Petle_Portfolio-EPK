@@ -5,8 +5,29 @@ import { MdAlternateEmail } from "react-icons/md";
 import { SlSocialSpotify } from "react-icons/sl";
 import { SiSoundcloud } from "react-icons/si";
 import { AiOutlineYoutube } from "react-icons/ai";
+import emailjs from "emailjs-com";
 
 export default function Contact() {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_bglqi5t",
+        "template_h63z9n4",
+        e.target,
+        "EatKFdZzfEfRMRlgS"
+      )
+      .then(
+        (result) => {
+          alert("Email sent successfully!");
+        },
+        (error) => {
+          alert("Failed to send email. Try again.");
+        }
+      );
+  };
+
   return (
     <div
       className="w-full h-screen bg-[#282828] p-5 lg:pt-24 lg:px-36"
@@ -43,26 +64,31 @@ export default function Contact() {
             </li>
           </div>
         </div>
-        <div className="flex flex-col space-y-8 w-full lg:w-[70%] mt-5 lg:mt-0">
+        <form
+          className="flex flex-col space-y-8 w-full lg:w-[70%] mt-5 lg:mt-0"
+          onSubmit={sendEmail}
+        >
           <input
             type="email"
+            name="from_name"
             placeholder="Your Email"
+            required
             className="p-4 outline-none rounded-3xl bg-transparent border text-white"
           />
           <textarea
-            name="Message"
+            name="message"
             id="Message"
+            required
             className="h-[50%] p-4 outline-none rounded-3xl bg-transparent border text-white"
             placeholder="Message"
           ></textarea>
           <button
-            href="mailto:ompetle183@gmail.com"
-            target="_blank"
+            type="submit"
             className="p-4 rounded-full bg-green-300 font-bold w-[30%] hover:text-white hover:bg-green-600 duration-500 m-auto"
           >
             Send
           </button>
-        </div>
+        </form>
       </div>
     </div>
   );
