@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import Contact from "./components/Contact";
 import EPK from "./components/EPK";
 import Home from "./components/Home";
@@ -6,12 +7,13 @@ import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
+  const targetSectionRef = useRef(null);
   return (
     <>
       <Navbar />
-      <Home />
+      <Home targetSectionRef={targetSectionRef} />
       <EPK />
-      <Music />
+      <Music targetSectionRef={targetSectionRef}/>
       <Contact />
     </>
   );

@@ -61,10 +61,10 @@ export default function EPK() {
           <div className="bg-white rounded-lg p-8 max-w-4xl w-full h-3/4 overflow-auto relative">
             {/* Close Button inside the popup */}
             <button
-              className="absolute top-0 right-0 z-10 text-white bg-red-500 hover:bg-red-600 rounded-full mb-2 w-8 h-8 flex items-center justify-center shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-110 ml-auto"
+              className="absolute top-0 right-2 z-10 text-black underline mb-2 w-8 h-8 flex items-center justify-center hover:text-red-500 transition-all duration-300 transform hover:scale-110 ml-auto"
               onClick={handleCloseEPK}
             >
-              X
+              close
             </button>
 
             {/* Sections with respective backgrounds */}
