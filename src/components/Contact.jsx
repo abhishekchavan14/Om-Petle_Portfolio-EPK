@@ -8,7 +8,10 @@ import { AiOutlineYoutube } from "react-icons/ai";
 
 export default function Contact() {
   return (
-    <div className="w-full h-screen bg-[#282828] p-5 lg:pt-24 lg:px-36" id="contact">
+    <div
+      className="w-full h-screen bg-[#282828] p-5 lg:pt-24 lg:px-36"
+      id="contact"
+    >
       <h1 className="text-5xl md:text-7xl text-center font-semibold mb-5 text-offWhite font-inter">
         CONTACT
       </h1>
@@ -25,7 +28,10 @@ export default function Contact() {
               <a href="mailto:ompetle183@gmail.com" target="_blank">
                 <MdAlternateEmail className="hover:scale-110 duration-300 cursor-pointer hover:text-blue-400" />
               </a>
-              <a href="https://open.spotify.com/artist/6cR0FpbkQtLYeDjM79dxo1?si=h91nm4qSR8SzXWgLKV3Qhg" target="_blank">
+              <a
+                href="https://open.spotify.com/artist/6cR0FpbkQtLYeDjM79dxo1?si=h91nm4qSR8SzXWgLKV3Qhg"
+                target="_blank"
+              >
                 <SlSocialSpotify className="hover:scale-110 duration-300 cursor-pointer hover:text-green-400" />
               </a>
               <a href="https://on.soundcloud.com/nMKaB" target="_blank">
@@ -49,7 +55,11 @@ export default function Contact() {
             className="h-[50%] p-4 outline-none rounded-3xl bg-transparent border text-white"
             placeholder="Message"
           ></textarea>
-          <button className="p-4 rounded-full bg-green-300 font-bold w-[30%] hover:text-white hover:bg-green-600 duration-500 m-auto">
+          <button
+            href="mailto:ompetle183@gmail.com"
+            target="_blank"
+            className="p-4 rounded-full bg-green-300 font-bold w-[30%] hover:text-white hover:bg-green-600 duration-500 m-auto"
+          >
             Send
           </button>
         </div>
