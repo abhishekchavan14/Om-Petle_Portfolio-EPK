@@ -22,13 +22,13 @@ export default function Contact() {
               <a href="https://www.instagram.com/om.petle/" target="_blank">
                 <FaInstagram className="hover:scale-110 duration-300 cursor-pointer hover:text-red-400" />
               </a>
-              <a href="mailto:abhishekchavan940@gmail.com" target="_blank">
+              <a href="mailto:ompetle183@gmail.com" target="_blank">
                 <MdAlternateEmail className="hover:scale-110 duration-300 cursor-pointer hover:text-blue-400" />
               </a>
-              <a href="https://open.spotify.com/" target="_blank">
+              <a href="https://open.spotify.com/artist/6cR0FpbkQtLYeDjM79dxo1?si=h91nm4qSR8SzXWgLKV3Qhg" target="_blank">
                 <SlSocialSpotify className="hover:scale-110 duration-300 cursor-pointer hover:text-green-400" />
               </a>
-              <a href="https://soundcloud.com/" target="_blank">
+              <a href="https://on.soundcloud.com/nMKaB" target="_blank">
                 <SiSoundcloud className="hover:scale-110 duration-300 cursor-pointer hover:text-orange-400" />
               </a>
               <a href="https://www.youtube.com/@ompetle" target="_blank">
